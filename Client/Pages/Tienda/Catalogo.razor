@@ -1,0 +1,216 @@
+﻿@page "/"
+@page "/catalogo"
+@inject IProductoServicio productoServicio;
+@inject ICategoriaServicio categoriaServicio;
+@inject NavigationManager navManager
+@inject IStringLocalizer<Resource> localizer
+
+<div class="container-fluid bg-light py-5" style="background-color: #BFE1F5;">
+    <!-- Fondo celeste pastel -->
+    <div class="row justify-content-center mt-3 mb-4">
+        <div class="col-sm-6 col-md-8 col-xl-9">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control rounded-pill" placeholder=@localizer["index.Buscar producto..."] @bind-value="buscar">
+                <button class="btn btn-outline-primary rounded-pill" type="button" @onclick="(async () => await ObtenerCatalogo())">
+                    <i class="oi oi-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card shadow-sm rounded-3">
+                <div class="card-header text-white bg-dark rounded-top">
+                    @localizer["index.Categorias"]
+                </div>
+                <div class="card-body">
+                    @if (listaCategoria != null)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="categoria" id="Todos" value="Todos"
+                                   @onchange="RadioSeleccion" checked="@categoriaSeleccionada.Equals("Todos")">
+                            <label class="form-check-label" for="Todos">@localizer["index.Todos"]</label>
+                        </div>
+                        @foreach (var item in listaCategoria)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoria" id="@item.IdCategoria" value="@item.Nombre"
+                                       @onchange="RadioSeleccion" checked="@categoriaSeleccionada.Equals(item.Nombre, StringComparison.OrdinalIgnoreCase)">
+                                <label class="form-check-label" for="@item.IdCategoria">@item.Nombre</label>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <div class="row gx-4 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-start">
+                @if (listaProducto != null)
+                {
+                    foreach (var item in listaProducto)
+                    {
+                        <div class="col mb-5">
+                            <div class="card h-100 shadow-sm rounded-3">
+                                @if (DateTime.Now < item.FechaCreacion.Value.AddDays(30))
+                                {
+                                    <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nuevo</div>
+                                }
+                                <img class="card-img-top border-dark border-1" src="@item.Imagen" style="width:100%; height:250px; object-fit: cover;">
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <h5 class="fw-bolder">@item.Nombre</h5>
+                                        @if (item.PrecioOferta != 0 && item.PrecioOferta < item.Precio)
+                                        {
+                                            <span class="text-danger text-decoration-line-through">S/. @item.Precio</span>
+                                            <span>S/. @item.PrecioOferta</span>
+                                        }
+                                        else
+                                        {
+                                            <span>S/. @item.Precio</span>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="card-footer p-3 pt-0 border-top-0 bg-transparent text-center">
+                                    <a class="btn btn-outline-dark rounded-pill mt-auto" href="/detalle/@item.IdProducto">@localizer["index.Ver producto"]</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- WhatsApp button -->
+<a href="https://api.whatsapp.com/send?phone=+5491154569803&text=BienvenidosLookeate" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+</a>
+
+<style>
+    /* Estilos de botones redondeados */
+    .btn-outline-primary {
+        border-radius: 50px;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #007BFF;
+            color: #fff;
+            border-color: #007BFF;
+        }
+
+    .btn-outline-dark {
+        border-radius: 50px;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+    }
+
+        .btn-outline-dark:hover {
+            background-color: #343a40;
+            color: #fff;
+            border-color: #343a40;
+        }
+
+    .btn-wsp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 63px;
+        bottom: 25px;
+        right: 25px;
+        background: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 35px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+        transition: all 300ms ease;
+    }
+
+        .btn-wsp:hover {
+            background: #20ba5a;
+        }
+
+    /* Estilos para las tarjetas */
+    .card {
+        border-radius: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+    /* Fondo celeste pastel */
+    .container-fluid {
+        background-color: #BFE1F5;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code {
+    private List<CategoriaDTO>? listaCategoria = null;
+    private List<ProductoDTO>? listaProducto = null;
+    private string buscar = "";
+    private string categoriaSeleccionada = "Todos";
+
+    private async Task ObtenerCategorias(string Valor = "")
+    {
+        var response = await categoriaServicio.Lista(Valor);
+
+        if (response.EsCorrecto)
+        {
+            listaCategoria = (List<CategoriaDTO>)response.Resultado!;
+        }
+        else
+        {
+            listaCategoria = new List<CategoriaDTO>();
+        }
+    }
+
+    private async Task ObtenerCatalogo()
+    {
+        var response = await productoServicio.Catalogo(categoriaSeleccionada, buscar);
+
+        if (response.EsCorrecto)
+        {
+            listaProducto = (List<ProductoDTO>)response.Resultado!;
+        }
+        else
+        {
+            listaProducto = new List<ProductoDTO>();
+        }
+    }
+
+    private async Task RadioSeleccion(ChangeEventArgs args)
+    {
+        categoriaSeleccionada = args.Value.ToString();
+        buscar = "";
+        await ObtenerCatalogo();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerCategorias();
+        await ObtenerCatalogo();
+    }
+}

@@ -1,0 +1,76 @@
+﻿@page "/dashboard"
+@inject IDashboardServicio dashboardServicio
+@attribute [Authorize(Roles = "Usuario")]
+
+<div class="container my-4">
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-start border-5 border-primary shadow-sm h-100">
+                <div class="card-body d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <h6 class="text-uppercase text-primary mb-1">Total Ingresos</h6>
+                        <h4 class="text-muted fw-bold">S/. @dashboard.TotalIngresos</h4>
+                    </div>
+                    <div>
+                        <i class="oi oi-dollar text-primary" style="font-size: 50px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-start border-5 border-success shadow-sm h-100">
+                <div class="card-body d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <h6 class="text-uppercase text-success mb-1">Total Ventas</h6>
+                        <h4 class="text-muted fw-bold">@dashboard.TotalVentas</h4>
+                    </div>
+                    <div>
+                        <i class="oi oi-tags text-success" style="font-size: 50px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-start border-5 border-warning shadow-sm h-100">
+                <div class="card-body d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <h6 class="text-uppercase text-warning mb-1">Total Clientes</h6>
+                        <h4 class="text-muted fw-bold">@dashboard.TotalClientes</h4>
+                    </div>
+                    <div>
+                        <i class="oi oi-people text-warning" style="font-size: 50px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-start border-5 border-info shadow-sm h-100">
+                <div class="card-body d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <h6 class="text-uppercase text-info mb-1">Total Productos</h6>
+                        <h4 class="text-muted fw-bold">@dashboard.TotalProductos</h4>
+                    </div>
+                    <div>
+                        <i class="oi oi-box text-info" style="font-size: 50px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private DashBoardDTO dashboard = new DashBoardDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await dashboardServicio.Resumen();
+        if (response.EsCorrecto)
+            dashboard = (DashBoardDTO)response.Resultado!;
+    }
+}

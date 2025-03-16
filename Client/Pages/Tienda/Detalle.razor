@@ -1,0 +1,158 @@
+﻿@page "/detalle/{Id:int}"
+@inject IProductoServicio productoServicio;
+@inject ICarritoServicio carritoServicio
+
+<!-- Contenedor principal con márgenes y padding -->
+<div class="container px-4 px-lg-5 my-5">
+
+    <!-- Verifica si el modelo de producto no es nulo -->
+    @if (modelo != null)
+    {
+        <!-- Fila para alinear el contenido del producto -->
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <!-- Columna para la imagen del producto -->
+            <div class="col-md-6">
+                <!-- Imagen del producto con bordes -->
+                <img class="card-img-top border-dark border-1" src="@modelo.Imagen" style="width:100%;">
+            </div>
+            <!-- Columna para los detalles del producto -->
+            <div class="col-md-6">
+                <!-- Nombre del producto en un estilo destacado -->
+                <h1 class="display-5 fw-bolder">@modelo.Nombre</h1>
+                <div class="fs-5 mb-5">
+                    <!-- Mostrar precio con oferta si aplica -->
+                    @if (modelo.PrecioOferta != 0 && modelo.PrecioOferta < modelo.Precio)
+                    {
+                        <!-- Precio original tachado -->
+                        <span class="text-danger text-decoration-line-through">S/. @modelo.Precio</span>
+                        <!-- Precio con oferta -->
+                        <span>S/. @modelo.PrecioOferta</span>
+                    }
+                    else
+                    {
+                        <!-- Precio normal -->
+                        <span>S/. @modelo.Precio</span>
+                    }
+                </div>
+                <!-- Descripción del producto -->
+                <p class="lead">@modelo.Descripcion</p>
+                <div class="d-flex">
+                    <!-- Ocultar botones de cantidad, pagar y reservar (comentados o con display:none) -->
+                    <input class="form-control text-center me-3" type="number" min="1" style="width:60px" @bind-value="cantidad">
+                    <button class="btn btn-outline-dark flex-shrink-0 me-3" type="button" @onclick="(async() => await AgregarCarrito(modelo))">
+                        <i class="bi-cart-fill me-1"></i>
+                       @*  Pagar
+                    </button>
+                    <input class="form-control text-center me-3" type="number" min="1" style="width:60px" @bind-value="cantidad">
+                    <button class="btn btn-outline-dark flex-shrink-0 me-3" type="button" @onclick="(async() => await AgregarCarrito(modelo))">
+                        <i class="bi-cart-fill me-1"></i> *@
+                        Reservar
+                    </button>
+              
+                    <a class="btn btn-outline-dark flex-shrink-0 rounded-pill" href="/mapa">
+                        <i class="bi-cart-fill me-1"></i>
+                        Ubicacion
+                    </a>
+                    <!-- Mantener los botones de navegación (Volver y Ubicación) -->
+                    <a class="btn btn-outline-dark flex-shrink-0 rounded-pill" href="/catalogo">
+                        <i class="bi-cart-fill me-1"></i>
+                        Volver
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Spinner de carga mostrado mientras el modelo no está disponible -->
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    }
+
+</div>
+
+<style>
+    /* Estilo de botones redondeados */
+    .btn-outline-dark {
+        border-radius: 25px;
+        padding: 8px 15px;
+        transition: all 0.2s ease;
+    }
+
+    .btn-outline-dark:hover {
+        background-color: #343a40;
+        color: #fff;
+        border-color: #343a40;
+    }
+
+    /* WhatsApp button */
+    .btn-wsp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 63px;
+        bottom: 25px;
+        right: 25px;
+        background: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 35px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+        transition: all 300ms ease;
+    }
+
+    .btn-wsp:hover {
+        background: #20ba5a;
+    }
+
+    @@media only screen and (min-width:320px) and (max-width:768px) {
+        .btn-wsp {
+            width: 63px;
+            height: 63px;
+            line-height: 66px;
+        }
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="https://api.whatsapp.com/send?phone=+5491154569803&text=BienvenidosLookeate" class="btn-wsp" target="_blank"><i class="fa fa-whatsapp icono"></i></a>
+
+@code {
+    // Parámetro para recibir el Id del producto desde el componente padre
+    [Parameter] public int Id { get; set; }
+    // Variable para almacenar los datos del producto
+    private ProductoDTO? modelo = null;
+    // Variable para almacenar la cantidad de productos seleccionados
+    private int cantidad = 1;
+
+    // Método llamado cuando se establecen los parámetros del componente
+    protected override async Task OnParametersSetAsync()
+    {
+        // Llamada al servicio para obtener el producto por Id
+        var response = await productoServicio.Obtener(Id);
+        // Si la respuesta es correcta, asigna el producto al modelo
+        if (response.EsCorrecto)
+            modelo = (ProductoDTO)response.Resultado!;
+    }
+
+    // Método para agregar el producto al carrito
+    private async Task AgregarCarrito(ProductoDTO modelo)
+    {
+        // Determina el precio final a aplicar, considerando la oferta si está disponible
+        decimal? precioFinal = (modelo.PrecioOferta != 0 && modelo.PrecioOferta < modelo.Precio) ? modelo.PrecioOferta : modelo.Precio;
+        // Crea un nuevo objeto CarritoDTO con la información del producto y cantidad
+        CarritoDTO carrito = new CarritoDTO()
+        {
+            Producto = modelo,
+            Cantidad = cantidad,
+            Precio = precioFinal,
+            Total = Convert.ToDecimal(cantidad) * precioFinal
+        };
+        // Llama al servicio para agregar el producto al carrito
+        await carritoServicio.AgregarCarrito(carrito);
+    }
+}

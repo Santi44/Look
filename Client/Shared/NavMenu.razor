@@ -1,0 +1,187 @@
+﻿@inject ICarritoServicio carritoServicio
+@inject SweetAlertService Swal;
+@inject NavigationManager _navigationManager
+@implements IDisposable
+@using Lookeate.Client.Extensiones;
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims;
+@inject AuthenticationStateProvider autenticacionProvider
+@inject IStringLocalizer<Resource> localizer
+
+
+@*<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Lookeate</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+    </nav>
+</div>
+*@
+
+<!-- Barra de navegación principal -->
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light">
+    <div class="container">
+        <!-- Logo de la aplicación -->
+        <a class="navbar-brand" runat="server" href="#">Lookeate</a>
+        <div class="top-row px-4">
+            <SelectorCultura />
+            </div>
+        
+        <!-- Botón de alternancia de navegación (colapsa o expande el menú) -->
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--   Bitacora  -->
+        @* <AuthorizeView>
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link animated-link" href="bitacora">
+                        <span aria-hidden="true"></span>@localizer["Bitácora"]
+                    </NavLink>
+                </div>
+
+        </Authorized>
+        </AuthorizeView> *@
+
+        <!-- Menú de navegación colapsable -->
+        <div class="@NavMenuCssClass navbar-collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <!-- Vista basada en autorización para mostrar elementos solo si el usuario tiene el rol "Usuario" -->
+                <AuthorizeView Roles="Usuario">
+                    <Authorized>
+                        <!-- Enlaces de navegación visibles para usuarios con rol "Usuario" -->
+                        <li class="animated-link"><NavLink class="nav-link" href="bitacora"> Bitácora</NavLink></li>
+                        <li class="animated-link"><NavLink class="nav-link" href="dashboard"> Dashboard</NavLink></li>
+                        <li class="animated-link"><NavLink class="nav-link" href="usuarios"> Usuarios</NavLink></li>
+                        <li class="animated-link"><NavLink class="nav-link" href="categorias">@localizer["index.Categorias"]</NavLink></li>
+                        <li class="animated-link"><NavLink class="nav-link" href="productos"> @localizer["Productos"]</NavLink></li>
+                    </Authorized>
+                </AuthorizeView>
+
+                <!-- Enlace de navegación visible para todos los usuarios -->
+                <li class="nav-item"><NavLink class="nav-link" href="catalogo"> @localizer["index.Tienda"]</NavLink></li>
+            </ul>
+
+            <!-- Vista basada en autorización para mostrar el correo electrónico del usuario -->
+            <AuthorizeView>
+                <Authorized>
+                    <!-- Muestra el correo electrónico del usuario autenticado -->
+                    <span class="navbar-text me-3">
+                        @context.User.Claims.Where(c => c.Type == ClaimTypes.Email).Select(c => c.Value).SingleOrDefault()
+                    </span>
+                </Authorized>
+            </AuthorizeView>
+
+            
+            <!-- Botón de carrito de compras -->
+            <a class="btn btn-outline-dark ms-auto ms-md-0 me-3" href="/cart">
+                <i class="bi-cart-fill me-1"></i>
+                @localizer["index.Reserva"]
+                <!-- Muestra la cantidad de productos en el carrito -->
+                <span class="badge bg-dark text-white ms-1 rounded-pill">@mostrarCantidadCarrito()</span>
+            </a>
+
+            <!-- Vista basada en autorización para mostrar el botón de cerrar sesión o el enlace para iniciar sesión -->
+            <AuthorizeView>
+                <Authorized>
+                    <!-- Botón para cerrar sesión -->
+                    <button class="btn btn-outline-dark ms-auto ms-md-0 me-3" type="button" @onclick="CerrarSesion">Salir</button>
+                </Authorized>
+                <NotAuthorized>
+                    <!-- Enlace para iniciar sesión, visible si el usuario no está autenticado -->
+                    <a class="btn btn-outline-dark ms-auto ms-md-0 me-3" href="/login">@localizer["index.Iniciar"]</a>
+                </NotAuthorized>
+            </AuthorizeView>
+           
+        </div>
+    </div>
+</nav>
+
+@code {
+    // Estado que controla si el menú de navegación está colapsado o expandido
+    private bool collapseNavMenu = true;
+    // Estado que controla si el menú del usuario está colapsado o expandido
+    private bool collapseMenuUser = false;
+
+    // Propiedad calculada para aplicar la clase "collapse" al menú de navegación si está colapsado
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    // Propiedad calculada para aplicar la clase "show" al menú del usuario si está expandido
+    private string? UserMenuCssClass => collapseMenuUser ? "show" : null;
+
+    // Método para alternar el estado de colapso del menú de navegación
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    // Método para alternar el estado de colapso del menú del usuario (no usado en el código actual)
+    private void ToggleMenuUser()
+    {
+        collapseMenuUser = !collapseMenuUser;
+    }
+
+    // Método que se ejecuta al inicializar el componente
+    protected override void OnInitialized()
+    {
+        // Suscribe al evento ActualizarVista para actualizar la vista cuando el carrito cambie
+        carritoServicio.ActualizarVista += StateHasChanged;
+    }
+
+    // Método que se ejecuta al destruir el componente
+    public void Dispose()
+    {
+        // Desuscribe del evento ActualizarVista para evitar fugas de memoria
+        carritoServicio.ActualizarVista -= StateHasChanged;
+    }
+
+    // Método que obtiene la cantidad de productos en el carrito
+    private int mostrarCantidadCarrito()
+    {
+        return carritoServicio.CantidadProductos();
+    }
+
+    // Método para cerrar sesión con confirmación
+    private async Task CerrarSesion()
+    {
+        // Muestra un cuadro de diálogo de confirmación usando SweetAlert
+        SweetAlertResult result = await Swal.FireAsync(new SweetAlertOptions
+        {
+            Title = "Desea salir?",
+            Icon = SweetAlertIcon.Info,
+            ShowCancelButton = true,
+            ConfirmButtonText = "Si",
+            CancelButtonText = "No"
+        });
+
+        // Si el usuario confirma, se cierra la sesión y se redirige a la página de inicio
+        if (result.IsConfirmed)
+        {
+            var autenticacionExt = (AutenticacionExtension)autenticacionProvider;
+            await autenticacionExt.ActualizarEstadoAutenticacion(null);
+            _navigationManager.NavigateTo("/", true);
+        }
+    }
+}
+

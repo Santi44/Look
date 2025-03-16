@@ -1,0 +1,245 @@
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate\103_SistemaEcommerceBlazorNet7-main\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Proyectos\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+E:\Proyectos\Lookeate_Version2\Lookeate_Version1\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Multiidioma\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Multiidioma_wp\Lookeate_Multiidioma\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+D:\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate3\Lookeate1\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\Downloads\Lookeate_Estilos\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+D:\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Damian\Documents\Programacion\Santi\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\Parcial 2\Lookeate_SDK\Lookeate_SDK\Lookeate_Estilos\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\Final de TFI\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\Lookeate_SDK_24_11\Lookeate_SDK_24_11\Lookeate_SDK_Estable\Lookeate_SDK_Estable\Lookeate_Estable\Lookeate\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateFinal_26_11\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate_Validado\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll.config
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.deps.json
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\bin\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.AssemblyInfo.cs
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\refint\Lookeate.Shared.dll
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\Lookeate.Shared.pdb
+C:\Users\Santi\OneDrive\Desktop\TFI\Carpeta FInal\Lookeate\Lookeate\Shared\obj\Debug\net7.0\ref\Lookeate.Shared.dll

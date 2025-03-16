@@ -1,0 +1,165 @@
+﻿@page "/productos"
+@inject IProductoServicio productoServicio;
+@inject IToastService toastService
+@inject SweetAlertService Swal;
+@attribute [Authorize(Roles = "Usuario")]
+@inject IStringLocalizer<Resource> localizer
+
+<div class="container my-4">
+    <!-- Botón Nuevo Producto y Buscador -->
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6 col-lg-4">
+            <div class="d-grid gap-2 col-12 mx-auto">
+                <a class="btn btn-primary" href="/producto">Nuevo producto</a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-8">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder=@localizer["index.Buscar producto..."] @bind-value="buscar">
+                <button class="btn btn-outline-primary" type="button" @onclick="(async()=> await ObtenerProductos(buscar))">
+                    <i class="oi oi-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lista de Productos -->
+    <div class="row gx-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+        @if (lista != null)
+        {
+            foreach (var item in lista)
+            {
+                <div class="col mb-4">
+                    <div class="card h-100 shadow-sm rounded-3 position-relative">
+                        <!-- Sale Badge-->
+                        @if (DateTime.Now < item.FechaCreacion.Value.AddDays(30))
+                        {
+                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nuevo</div>
+                        }
+
+                        <!-- Product Image -->
+                        <img class="card-img-top" src="@item.Imagen" alt="Imagen del producto">
+
+                        <!-- Product Details -->
+                        <div class="card-body text-center">
+                            <h5 class="fw-bolder">@item.Nombre</h5>
+                            @if (item.PrecioOferta != 0 && item.PrecioOferta < item.Precio)
+                            {
+                                <div>
+                                    <span class="text-danger text-decoration-line-through">S/. @item.Precio</span>
+                                    <span class="ms-2 text-success fw-bold">S/. @item.PrecioOferta</span>
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    <span class="fw-bold">S/. @item.Precio</span>
+                                </div>
+                            }
+                        </div>
+
+                        <!-- Product Actions -->
+                        <div class="card-footer d-flex justify-content-between">
+                            <a class="btn btn-sm btn-outline-primary" href="/producto/@item.IdProducto">
+                                <i class="oi oi-pencil"></i> Editar
+                            </a>
+                            <button class="btn btn-sm btn-outline-danger" @onclick="(async () => await Eliminar(item))">
+                                <i class="oi oi-trash"></i> Eliminar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+        }
+    </div>
+</div>
+
+<a href="https://api.whatsapp.com/send?phone=+5491154569803&text=BienvenidosLookeate" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+</a>
+
+<!-- Estilo y Scripts -->
+<style>
+    .btn-wsp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        right: 25px;
+        background: #25d366;
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index: 100;
+        transition: all 300ms ease;
+    }
+
+        .btn-wsp:hover {
+            background: #20ba5a;
+        }
+</style>
+
+<!-- Librería de iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code {
+    private List<ProductoDTO>? lista = null;
+    private string buscar = "";
+
+    private async Task ObtenerProductos(string Valor = "")
+    {
+        var response = await productoServicio.Lista(Valor);
+
+        if (response.EsCorrecto)
+        {
+            lista = (List<ProductoDTO>)response.Resultado!;
+        }
+        else
+        {
+            lista = new List<ProductoDTO>();
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerProductos();
+    }
+
+    private async Task Eliminar(ProductoDTO modelo)
+    {
+        SweetAlertResult result = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "¿Está seguro?",
+                Text = $"Eliminar producto: {modelo.Nombre}",
+                Icon = SweetAlertIcon.Warning,
+                ShowCancelButton = true,
+                ConfirmButtonText = "Sí, eliminar",
+                CancelButtonText = "No, volver"
+            });
+
+        if (result.IsConfirmed)
+        {
+            var response = await productoServicio.Eliminar(modelo.IdProducto);
+
+            if (response.EsCorrecto)
+            {
+                await ObtenerProductos();
+                toastService.ShowSuccess("Producto eliminado con éxito.");
+            }
+            else
+            {
+                toastService.ShowError(response.Mensaje!);
+            }
+        }
+    }
+}

@@ -1,0 +1,489 @@
+[
+  {
+    "ContainingType": "Lookeate.Server.BitacoraController",
+    "Method": "GetLogs",
+    "RelativePath": "api/bitacora/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "desde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "hasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.CategoriaController",
+    "Method": "Crear",
+    "RelativePath": "api/Categoria/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.CategoriaController",
+    "Method": "Editar",
+    "RelativePath": "api/Categoria/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.CategoriaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Categoria/Eliminar/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.CategoriaController",
+    "Method": "Lista",
+    "RelativePath": "api/Categoria/Lista/{Valor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Valor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.CategoriaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Categoria/Obtener/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.DashboardController",
+    "Method": "Resumen",
+    "RelativePath": "api/Dashboard/Resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PaymentController",
+    "Method": "Data",
+    "RelativePath": "api/Payment/Data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SERVICIOS.UseCases.GetPaymentData.GetPaymentDataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Autorizacion",
+    "RelativePath": "api/Persona/Autorizacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Crear",
+    "RelativePath": "api/Persona/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.PersonaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Editar",
+    "RelativePath": "api/Persona/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.PersonaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Persona/Eliminar/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Lista",
+    "RelativePath": "api/Persona/Lista/{Rol}/{Valor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Rol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Valor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.PersonaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Persona/Obtener/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Catalogo",
+    "RelativePath": "api/Producto/Catalogo/{categoria}/{buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "buscar",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Crear",
+    "RelativePath": "api/Producto/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/Producto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Producto/Eliminar/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/Producto/Lista/{Valor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Valor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.ProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Producto/Obtener/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.VentaController",
+    "Method": "Registrar",
+    "RelativePath": "api/Venta/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Lookeate.Shared.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.WebhookController",
+    "Method": "Success",
+    "RelativePath": "api/WebhookController/CallBack",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection_status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "external_reference",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "merchant_order_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "preference_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "site_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processing_mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "merchant_account_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lookeate.Server.Controllers.WebhookController",
+    "Method": "Failure",
+    "RelativePath": "api/WebhookController/Failure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection_status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "external_reference",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "merchant_order_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "preference_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "site_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processing_mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "merchant_account_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

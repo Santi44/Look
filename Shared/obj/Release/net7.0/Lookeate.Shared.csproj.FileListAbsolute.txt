@@ -1,0 +1,13 @@
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Release\net7.0\Lookeate.Shared.dll.config
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Release\net7.0\Lookeate.Shared.deps.json
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Release\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\bin\Release\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.csproj.AssemblyReference.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.AssemblyInfoInputs.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.AssemblyInfo.cs
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.csproj.CoreCompileInputs.cache
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\refint\Lookeate.Shared.dll
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\Lookeate.Shared.pdb
+E:\Final de TFI\LookeateEstable\Lookeate\Lookeate\Shared\obj\Release\net7.0\ref\Lookeate.Shared.dll

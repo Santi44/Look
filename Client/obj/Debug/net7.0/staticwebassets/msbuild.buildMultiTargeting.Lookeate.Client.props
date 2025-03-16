@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lookeate.Client.props" />
+</Project>

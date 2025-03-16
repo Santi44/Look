@@ -1,0 +1,163 @@
+﻿@page "/Bitacora"
+@using Lookeate.Shared
+@using System.Text.Json
+@using Microsoft.Extensions.Logging.Abstractions
+@inject SweetAlertService swal
+@inject IStringLocalizer<Resource> localizer
+@inject HttpClient Http
+@attribute [Authorize(Roles = "Usuario")]
+
+@* <NavigationLock OnBeforeInternalNavigation="OnBeforeInternalNavigation"> </NavigationLock> *@
+
+<di class="card shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 400px;">
+    <class ="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <h3 class="font-weight-bold"><strong>@localizer["Registro de Logs"]</strong></h3>
+    </class>
+
+    <div class="card-body">
+        <!-- Fecha Desde -->
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label"><strong>@localizer["Desde"]:</strong></label>
+            </div>
+            <div class="col-md-8">
+                <InputDate class="form-control shadow-sm rounded" @bind-Value="FechaDesde" style="width: 120px;" />
+            </div>
+
+        </div>
+
+        <!-- Fecha Hasta -->
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label" style="width: 100px;"><strong>@localizer["Hasta"]:</strong></label>
+            </div>
+
+            <div class="col-md-8">
+                <InputDate class="form-control shadow-sm rounded" @bind-Value="FechaHasta" style="width: 120px;" />
+            </div>
+
+        </div>
+
+        <!-- Tipo -->
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label"><strong>@localizer["Tipo"]:</strong></label>
+            </div>
+            <div class="col-md-8">
+                <InputText class="form-control shadow-sm rounded" @bind-Value="Tipo" placeholder="@localizer["Ingrese el tipo"]" style="width: 120px;" />
+            </div>
+
+        </div>
+  
+    </div>
+
+    <div class="card-footer text-center">
+        <button class="btn btn-success shadow-sm px-4 py-2" style="border-radius: 50px;" @onclick="Search">
+            <i class=""></i> @localizer["Buscar"]
+        </button>
+    </div>
+
+</di>
+
+@if (BusquedaRealizada && (Logs == null || !Logs.Any()))
+{
+    <p class="text-center mt-4" style="color:#8B0000 ;"><strong>@localizer["Registro no Encontrado."]</strong></p>
+
+}
+
+@if (Logs != null && Logs.Any())
+{
+    <div class="card shadow-sm p-4 mb-5 bg-white rounded">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@localizer["FechaHora"]</th>
+                    <th>@localizer["Tipo"]</th>
+                    <th>@localizer["Mensaje"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var log in Logs)
+                {
+                    <tr>
+                        <td>@log.FechaHora</td>
+                        <td>@log.Tipo</td>
+                        <td>@log.Mensaje</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private DateTime? FechaDesde { get; set; }
+    private DateTime? FechaHasta { get; set; }
+    private string? Tipo { get; set; }
+    private List<LogEntry> Logs { get; set; } = new List<LogEntry>();
+    private bool BusquedaRealizada { get; set; } = false;
+
+    private async Task Search()
+    {
+        BusquedaRealizada = true;
+        var queryParams = new List<string>();
+
+        if (FechaDesde.HasValue)
+        {
+            queryParams.Add($"desde={FechaDesde.Value:yyyy-MM-dd}");
+        }
+        if (FechaHasta.HasValue)
+        {
+            queryParams.Add($"hasta={FechaHasta.Value:yyyy-MM-dd}");
+        }
+        if (!string.IsNullOrEmpty(Tipo))
+        {
+            queryParams.Add($"tipo={Uri.EscapeDataString(Tipo)}");
+        }
+      
+
+        var queryString = queryParams.Count > 0 ? $"?{string.Join("&", queryParams)}" : string.Empty;
+
+        try
+        {
+            var response = await Http.GetAsync($"api/bitacora/buscar{queryString}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var logs = await response.Content.ReadFromJsonAsync<List<LogEntry>>();
+                if (logs != null)
+                {
+                    Logs = logs;
+                }
+                else
+                {
+                    Logs.Clear();
+                    await swal.FireAsync(@localizer["Sin resultados"], @localizer["No se encontraron registros"], SweetAlertIcon.Info);
+                }
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Nose pudo obtener log Estado: {response.StatusCode}, Contenido: {errorContent}");
+                await swal.FireAsync(@localizer["Error"], $"Error al la  solicitud: {response.StatusCode}", SweetAlertIcon.Error);
+            }
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Error  solicitud HTTP: {ex.Message}");
+            await swal.FireAsync(@localizer["Error"], $"Error a la  solicitud HTTP: {ex.Message}", SweetAlertIcon.Error);
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Error  respuesta JSON: {ex.Message}");
+            await swal.FireAsync(@localizer["Error"], $"Error deserializar la respuesta JSON: {ex.Message}", SweetAlertIcon.Error);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($" error: {ex.Message}");
+            await swal.FireAsync(@localizer["Error"], $" error: {ex.Message}", SweetAlertIcon.Error);
+        }
+    }
+    
+   
+    }

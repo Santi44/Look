@@ -1,0 +1,166 @@
+﻿/* Importar iconos de Open Iconic */
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+/* Estilos globales */
+html, body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAF2F8;
+    */ /* Fondo celeste pastel suave */
+    color: #333; /* Color de texto base para buena legibilidad */
+}
+
+/* Eliminar contorno del encabezado h1 al recibir enfoque */
+h1:focus {
+    outline: none;
+}
+
+/* Estilos de enlaces y botones */
+a, .btn-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover, .btn-link:hover {
+        color: #004c99; /* Color de enlace más oscuro al pasar el cursor */
+    }
+
+/* Estilos para el botón primario */
+.btn-primary {
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #004c99;
+        transform: scale(1.02);
+    }
+
+    .btn-primary:active {
+        background-color: #003366;
+        transform: scale(0.98);
+    }
+
+/* Efectos de enfoque */
+.btn:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.3); /* Efecto de enfoque suave */
+    outline: none;
+}
+
+/* Estilo para la sección de contenido */
+.content {
+    padding: 1rem;
+    color: #333;
+}
+
+/* Estilo para campos válidos en formularios */
+.valid.modified:not([type=checkbox]) {
+    outline: 2px solid #26b050;
+}
+
+/* Estilo para campos inválidos en formularios */
+.invalid {
+    outline: 2px solid #e63946;
+}
+
+/* Mensajes de validación */
+.validation-message {
+    color: #e63946;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el mensaje de error de Blazor */
+#blazor-error-ui {
+    background-color: #ffefc1;
+    color: #333;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+    }
+
+/* Estilos para el contenedor de errores de Blazor */
+.blazor-error-boundary {
+    background: url(data:image/svg+xml;base64,...base64-data...) no-repeat 1rem/1.8rem, #e63946;
+    padding: 1rem 1rem 1rem 4rem;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+
+/* Indicador de carga */
+.loading-progress {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin: 20vh auto 1rem auto;
+    position: relative;
+    color: #26b050;
+}
+
+    .loading-progress circle {
+        fill: none;
+        stroke: #e0e0e0;
+        stroke-width: 0.4rem;
+        transform-origin: 50% 50%;
+        transform: rotate(-90deg);
+    }
+
+        .loading-progress circle:last-child {
+            stroke: #1b6ec2;
+            stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+            transition: stroke-dasharray 0.2s ease-in-out;
+        }
+
+/* Texto del indicador de carga */
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    inset: calc(20vh + 3.25rem) 0 auto 0;
+    color: #0066cc;
+    font-style: italic;
+}
+
+    .loading-progress-text::after {
+        content: var(--blazor-load-percentage-text, "Cargando...");
+    }
+
+/* Estilo de enlace en negrita y color negro */
+.animated-link {
+    font-weight: bold; /* Negrita */
+    color: black; /* Color negro */
+    text-decoration: none; /* Eliminar subrayado predeterminado */
+    transition: transform 0.3s ease, color 0.3s ease; /* Animación de transición */
+}
+
+    .animated-link:hover {
+        color: #333; /* Color negro más suave al pasar el cursor */
+        transform: scale(1.1); /* Agrandar el texto al pasar el cursor */
+    }
+
+    .animated-link:focus {
+        outline: none; /* Eliminar contorno cuando está enfocado */
+        transform: scale(1.1); /* Agrandar el texto también cuando está enfocado */
+    }

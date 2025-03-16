@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\Lookeate.Client.styles.css",
+      "PackagePath": "staticwebassets\\Lookeate.Client.styles.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\Map.js",
+      "PackagePath": "staticwebassets\\Js\\Map.js"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\MercadoPago.js",
+      "PackagePath": "staticwebassets\\Js\\MercadoPago.js"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\Map\\Mapa.css",
+      "PackagePath": "staticwebassets\\css\\Map\\Mapa.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Lookeate.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Lookeate.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Lookeate.Client.props",
+      "PackagePath": "build\\Lookeate.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Lookeate.Client.props",
+      "PackagePath": "buildMultiTargeting\\Lookeate.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Lookeate.Client.props",
+      "PackagePath": "buildTransitive\\Lookeate.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

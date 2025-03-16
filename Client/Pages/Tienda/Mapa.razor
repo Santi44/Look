@@ -1,0 +1,66 @@
+﻿@page "/Mapa"  
+
+@inject IJSRuntime JS  
+
+<!-- Enlace al archivo CSS de la biblioteca Leaflet (utilizada para mostrar mapas interactivos) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+<!-- Script necesario para integrar la funcionalidad de MercadoPago en la página -->
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+
+<!-- Contenedor para la sección de pago de MercadoPago -->
+<div id="wallet_container">
+    <!-- Aquí se cargará la interfaz de pago de MercadoPago -->
+</div>
+
+<!-- Botón que permite ejecutar una acción, con tooltip al pasar el ratón -->
+@* <button class="btn btn-outline-success" data-toggle="tooltip" title="Exportar" @onclick="(()=> export())">
+    Buscar
+</button> *@
+
+@* <!-- Contenedor para mostrar el código -->
+<div class="qr-code-container">
+    <div class="qr-code" style></div> <!-- Aquí se podría renderizar un código dinámicamente -->
+    <!-- Campos de texto para latitud y longitud, vinculados a las variables storeLatitude y storeLongitude -->
+    <input type="text" @bind-value=storeLatitude placeholder="Latitud" />
+    <input type="text" @bind-value=storeLongitude placeholder="Longuitud " />
+</div> *@
+
+<!-- Botón para regresar al catálogo, dentro de un contenedor de diseño flex -->
+<div class="d-flex">
+    <a class="btn btn-outline-dark flex-shrink-0 ms-auto" href="/catalogo">
+        <i class="bi-cart-fill me-1"></i> <!-- Ícono de carrito de compras -->
+        Volver
+    </a>
+</div>
+
+<!-- Contenedor donde se renderiza el mapa -->
+<div id="map" class="map" style="height:500px;width:1300px"></div>
+
+@code {
+    // Definición de las coordenadas por defecto de la tienda
+    string storeLatitude = "-34.50516838116521";  // Latitud por defecto
+    string storeLongitude = "-58.57174054917696";  // Longitud por defecto
+    
+    // Este método se ejecuta después de que el componente se haya renderizado
+    protected override async Task OnAfterRenderAsync(bool isFirstRender)
+    {
+        // Solo ejecuta este bloque de código cuando es la primera vez que se renderiza el componente
+        if (isFirstRender)
+        {
+            // Llama a un método JavaScript para generar el mapa, pasándole las coordenadas de la tienda
+            await JS.InvokeVoidAsync("GenerarMapa", storeLatitude, storeLongitude);
+        }
+    }
+    
+    // Método que se ejecuta cuando se hace clic en el botón "Buscar"
+    private async Task export()
+    {
+        // Llama nuevamente al método JavaScript para generar el mapa con las coordenadas actuales
+        await JS.InvokeVoidAsync("GenerarMapa", storeLatitude, storeLongitude);
+    }
+    
+    // Enlace a una posible referencia adicional para la integración con jsPDF (comentado en el código original)
+    // https://forum.bubble.io/t/jspdf-integration/7618
+}

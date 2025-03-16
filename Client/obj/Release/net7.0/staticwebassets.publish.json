@@ -1,0 +1,4420 @@
+{
+  "Version": 1,
+  "Hash": "DZSRczqU6nnPjuu7L/4WKJnrRHfflruRAgDstYjChSc=",
+  "Source": "Lookeate.Client",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lookeate.Client\\wwwroot",
+      "Source": "Lookeate.Client",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "isl4xtqbmh",
+      "Integrity": "UvwTBwDrCS9yh35f14Sx+NrDIVftgIzc2IyOkol9to0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bootstrap4Theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lt42kulga5",
+      "Integrity": "6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bootstrap4Theme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bootstrap4Theme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lt42kulga5",
+      "Integrity": "6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bootstrap4Theme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "borderlessTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k8kwsn9xyq",
+      "Integrity": "jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "borderlessTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "borderlessTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k8kwsn9xyq",
+      "Integrity": "jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "borderlessTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bulmaTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6g6fs9iql",
+      "Integrity": "awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bulmaTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bulmaTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6g6fs9iql",
+      "Integrity": "awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "bulmaTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "darkTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4wcqzhkh0e",
+      "Integrity": "xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "darkTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "darkTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4wcqzhkh0e",
+      "Integrity": "xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "darkTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "defaultTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti4gbh8ea0",
+      "Integrity": "5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "defaultTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "defaultTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti4gbh8ea0",
+      "Integrity": "5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "defaultTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "materialUITheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf0sl3o6u7",
+      "Integrity": "zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "materialUITheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "materialUITheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf0sl3o6u7",
+      "Integrity": "zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "materialUITheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "minimalTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rl87wv4wqf",
+      "Integrity": "sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "minimalTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "minimalTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rl87wv4wqf",
+      "Integrity": "sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "minimalTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "sweetAlert2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yqm9mo6gs3",
+      "Integrity": "anGQlk3JehsbPFuwcbaY9ZRtwy2jYkupzLFrpTlW0D4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "sweetAlert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j5chadthkx",
+      "Integrity": "xwW2mxUTS3xY2kfIRK8PYjESa+B77CsTfbFeiRiSXQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "wordpressAdminTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ea1nvn42gk",
+      "Integrity": "up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "wordpressAdminTheme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53if3c78bp",
+      "Integrity": "UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.js"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.css",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "wordpressAdminTheme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ea1nvn42gk",
+      "Integrity": "up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.js",
+      "SourceId": "CurrieTechnologies.Razor.SweetAlert2",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\",
+      "BasePath": "_content/CurrieTechnologies.Razor.SweetAlert2",
+      "RelativePath": "wordpressAdminTheme.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.js"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "boot",
+      "Fingerprint": "s4opx6c2mv",
+      "Integrity": "lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Santi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.5\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\lvebmmjwxb-s4opx6c2mv.gz",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j51wy75iit",
+      "Integrity": "13sa2hHNOuVxMmcEkvwCbeLxfAaEehok/zU6+d1rWlg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\publish\\lvebmmjwxb-s4opx6c2mv.br",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "0nqq444m5t",
+      "Integrity": "pCLNnMQnBnfG29kXYASYPyoeFR6fv5EoLL6AlwofUoM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\Lookeate.Client.styles.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "Lookeate.Client#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "d0v7cczv69",
+      "Integrity": "vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\Lookeate.Client.styles.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\app.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ycujhsugiq",
+      "Integrity": "jl6io4K4U4e2ZWHZcEKppd1TU9Qc99cvmtbI9A0RaHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\Map\\Mapa.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Map/Mapa#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kgz3df7jyn",
+      "Integrity": "RM8FGySy/ZMpKiv3jUOu5xBFQMlZXzY52tlefkf6TVw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Map\\Mapa.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "10uzszoped",
+      "Integrity": "oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z189sdz1gv",
+      "Integrity": "+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3cg08az021",
+      "Integrity": "s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ecj4fqnpz",
+      "Integrity": "f7rXj2KSx8rOrKHjkkyN+tLJV5mfHEDVLGIZvcj/hgg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\styles.css",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\favicon.png",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\icon-192.png",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icon-192#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9uvjujlxy",
+      "Integrity": "DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\index.html",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "74k39ml85a",
+      "Integrity": "l5l+uZ1oDmoNnROF3sNuhYyr+qE4mg9sDssTD47rWlg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\Map.js",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Js/Map#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kt80u488bh",
+      "Integrity": "qBrlLOTxzsM877b2wNXoxJmIt1kR0bbHayjhi4FlanA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\Map.js"
+    },
+    {
+      "Identity": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\MercadoPago.js",
+      "SourceId": "Lookeate.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Js/MercadoPago#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l7a8otznsd",
+      "Integrity": "T35H4LJaxa6SYxExJqovCt6QqEkbFSMDDlZK5nJ0GZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\MercadoPago.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Blazored.Toast/Blazored.Toast.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UvwTBwDrCS9yh35f14Sx+NrDIVftgIzc2IyOkol9to0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Feb 2023 22:50:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UvwTBwDrCS9yh35f14Sx+NrDIVftgIzc2IyOkol9to0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bootstrap4Theme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bootstrap4Theme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bootstrap4Theme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6aA/SPABNCNTZZ9rTPu3Hvq9rqZ2tlL4wc336MC/lY0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bootstrap4Theme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bootstrap4Theme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/borderlessTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/borderlessTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/borderlessTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKmehS3sH2XDnDmm3LoN4uM5NYLvDoV+h/UfguWtaQc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/borderlessTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\borderlessTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bulmaTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bulmaTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bulmaTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awb1EfDYZPYtpjyUJ6Y4lrT3aP9Pz9+wroOcF3P6H88="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/bulmaTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\bulmaTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/darkTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/darkTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/darkTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCpwABVbqzQYMB6zhK2Dcsmy3Z+b9769LX7UaysL6SI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/darkTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\darkTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/defaultTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/defaultTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/defaultTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5UnENjQAk5tuU+6Fsp/A493T0F5MGfyJ23KkL61kbpQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/defaultTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\defaultTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/materialUITheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/materialUITheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/materialUITheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zu34c38KbFi7vR9UXi1sdMdoj9+/SP/akQsY1OcaWgs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/materialUITheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\materialUITheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/minimalTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/minimalTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/minimalTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sZyyxmblj7qWOx9C3PsYUI0//hOe0bUIbsvecI6x8Pg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/minimalTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\minimalTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/sweetAlert2.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"anGQlk3JehsbPFuwcbaY9ZRtwy2jYkupzLFrpTlW0D4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-anGQlk3JehsbPFuwcbaY9ZRtwy2jYkupzLFrpTlW0D4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/sweetAlert2.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\sweetAlert2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwW2mxUTS3xY2kfIRK8PYjESa+B77CsTfbFeiRiSXQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwW2mxUTS3xY2kfIRK8PYjESa+B77CsTfbFeiRiSXQc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/wordpressAdminTheme.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/wordpressAdminTheme.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQwyDCflOyAlFdhJU8wBqtKVZe5AmqqNbtQDBlAAlgM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/wordpressAdminTheme.min.css",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-up4Xrqzx0WL9a3obQhdH9jTh4z4Ymt4ChuCnk07Wqf0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/CurrieTechnologies.Razor.SweetAlert2/wordpressAdminTheme.min.js",
+      "AssetFile": "C:\\Users\\Santi\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Mar 2023 15:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.webassembly.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Mar 2023 02:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.webassembly.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\lvebmmjwxb-s4opx6c2mv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000049731450"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20107"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13sa2hHNOuVxMmcEkvwCbeLxfAaEehok/zU6+d1rWlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 22:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.webassembly.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\publish\\lvebmmjwxb-s4opx6c2mv.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000056091541"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17827"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pCLNnMQnBnfG29kXYASYPyoeFR6fv5EoLL6AlwofUoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Mar 2023 02:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lOCs45frNf+D7me6lKLgUhRCdt4VwHCp9H6Ct+YWzfs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.webassembly.js.br",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\publish\\lvebmmjwxb-s4opx6c2mv.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pCLNnMQnBnfG29kXYASYPyoeFR6fv5EoLL6AlwofUoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Mar 2023 02:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pCLNnMQnBnfG29kXYASYPyoeFR6fv5EoLL6AlwofUoM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.webassembly.js.gz",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\compressed\\lvebmmjwxb-s4opx6c2mv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13sa2hHNOuVxMmcEkvwCbeLxfAaEehok/zU6+d1rWlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 22:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-13sa2hHNOuVxMmcEkvwCbeLxfAaEehok/zU6+d1rWlg="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jl6io4K4U4e2ZWHZcEKppd1TU9Qc99cvmtbI9A0RaHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jl6io4K4U4e2ZWHZcEKppd1TU9Qc99cvmtbI9A0RaHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.ycujhsugiq.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jl6io4K4U4e2ZWHZcEKppd1TU9Qc99cvmtbI9A0RaHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycujhsugiq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jl6io4K4U4e2ZWHZcEKppd1TU9Qc99cvmtbI9A0RaHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Map/Mapa.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\Map\\Mapa.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RM8FGySy/ZMpKiv3jUOu5xBFQMlZXzY52tlefkf6TVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 21:44:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RM8FGySy/ZMpKiv3jUOu5xBFQMlZXzY52tlefkf6TVw="
+        }
+      ]
+    },
+    {
+      "Route": "css/Map/Mapa.kgz3df7jyn.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\Map\\Mapa.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RM8FGySy/ZMpKiv3jUOu5xBFQMlZXzY52tlefkf6TVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 21:44:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kgz3df7jyn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Map/Mapa.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RM8FGySy/ZMpKiv3jUOu5xBFQMlZXzY52tlefkf6TVw="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.10uzszoped.svg",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "10uzszoped"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.z189sdz1gv",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z189sdz1gv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.3cg08az021",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3cg08az021"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.9ecj4fqnpz.md",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7rXj2KSx8rOrKHjkkyN+tLJV5mfHEDVLGIZvcj/hgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ecj4fqnpz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7rXj2KSx8rOrKHjkkyN+tLJV5mfHEDVLGIZvcj/hgg="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7rXj2KSx8rOrKHjkkyN+tLJV5mfHEDVLGIZvcj/hgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7rXj2KSx8rOrKHjkkyN+tLJV5mfHEDVLGIZvcj/hgg="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.dyjx89twm7.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.f9uvjujlxy.png",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9uvjujlxy"
+        },
+        {
+          "Name": "label",
+          "Value": "icon-192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.png",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 01:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="
+        }
+      ]
+    },
+    {
+      "Route": "index.74k39ml85a.html",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l5l+uZ1oDmoNnROF3sNuhYyr+qE4mg9sDssTD47rWlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 16:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "74k39ml85a"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l5l+uZ1oDmoNnROF3sNuhYyr+qE4mg9sDssTD47rWlg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l5l+uZ1oDmoNnROF3sNuhYyr+qE4mg9sDssTD47rWlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 16:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l5l+uZ1oDmoNnROF3sNuhYyr+qE4mg9sDssTD47rWlg="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Map.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\Map.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBrlLOTxzsM877b2wNXoxJmIt1kR0bbHayjhi4FlanA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 21:51:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qBrlLOTxzsM877b2wNXoxJmIt1kR0bbHayjhi4FlanA="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Map.kt80u488bh.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\Map.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBrlLOTxzsM877b2wNXoxJmIt1kR0bbHayjhi4FlanA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 Aug 2024 21:51:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kt80u488bh"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/Map.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qBrlLOTxzsM877b2wNXoxJmIt1kR0bbHayjhi4FlanA="
+        }
+      ]
+    },
+    {
+      "Route": "Js/MercadoPago.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\MercadoPago.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T35H4LJaxa6SYxExJqovCt6QqEkbFSMDDlZK5nJ0GZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 22:20:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T35H4LJaxa6SYxExJqovCt6QqEkbFSMDDlZK5nJ0GZE="
+        }
+      ]
+    },
+    {
+      "Route": "Js/MercadoPago.l7a8otznsd.js",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\wwwroot\\Js\\MercadoPago.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T35H4LJaxa6SYxExJqovCt6QqEkbFSMDDlZK5nJ0GZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 22:20:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l7a8otznsd"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/MercadoPago.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T35H4LJaxa6SYxExJqovCt6QqEkbFSMDDlZK5nJ0GZE="
+        }
+      ]
+    },
+    {
+      "Route": "Lookeate.Client.d0v7cczv69.styles.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\Lookeate.Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 22:38:51 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazored.Toast/Blazored.Toast.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d0v7cczv69"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c="
+        },
+        {
+          "Name": "label",
+          "Value": "Lookeate.Client.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Lookeate.Client.styles.css",
+      "AssetFile": "E:\\Final de TFI\\LookeateEstable\\Lookeate\\Lookeate\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\Lookeate.Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 22:38:51 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazored.Toast/Blazored.Toast.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿@page "/Fin"
+@using Lookeate.Client.Extensiones;
+@using Microsoft.AspNetCore.Components.Authorization;
+@layout LoginLayout
+@inject IPersonaServicio _personaServicio
+@inject NavigationManager _navServicio
+@inject IToastService toastService
+@inject AuthenticationStateProvider autenticacionProvider
+
+<style>
+    /* Centrado de la página */
+    .centered-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+        /* Estilo de negrita y tamaño del texto */
+        .centered-text label {
+            font-weight: bold;
+            font-size: 24px;
+        }
+</style>
+
+<div class="centered-text">
+    <label for="inputEmail">Gracias Por su compra !!!</label>
+</div>
